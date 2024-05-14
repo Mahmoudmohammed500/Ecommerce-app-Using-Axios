@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Ecommerce-app-Using-Axios/static/css/main.931ceefe.css",
+    "main.js": "/Ecommerce-app-Using-Axios/static/js/main.06fa34df.js",
+    "static/media/shopping-cart.svg": "/Ecommerce-app-Using-Axios/static/media/shopping-cart.046cea927b7d6864616c0a495e3db47e.svg",
+    "index.html": "/Ecommerce-app-Using-Axios/index.html",
+    "main.931ceefe.css.map": "/Ecommerce-app-Using-Axios/static/css/main.931ceefe.css.map",
+    "main.06fa34df.js.map": "/Ecommerce-app-Using-Axios/static/js/main.06fa34df.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.931ceefe.css",
+    "static/js/main.06fa34df.js"
+  ]
+}
