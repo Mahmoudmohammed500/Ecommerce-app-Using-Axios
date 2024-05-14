@@ -1,0 +1,53 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  margin-bottom: 20px;
+}
+
+.headerTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: black;
+ 
+}
+
+.mainNav,
+.secNav {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 5px 10px 0 10px;
+}
+
+.mainNav li,
+.secNav li {
+  margin: 0px 5px 0 5px;
+  position: relative;
+}
+
+.mainNav li a,
+.secNav li a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.activeLink::after {
+  content: "";
+  display: block;
+  position: absolute;
+  background-color: white;
+  height: 2px;
+  width: 100%;
+  bottom: 2px;
+}
